@@ -1,0 +1,19 @@
+# Weather Station — Python dependencies
+
+# GPIO
+RPi.GPIO>=0.7.1
+
+# I2C / CircuitPython platform support
+adafruit-blinka>=8.0.0
+
+# BME280 temperature / humidity / pressure
+adafruit-circuitpython-bme280>=2.6.4
+
+# ADS1115 ADC (wind vane)
+adafruit-circuitpython-ads1x15>=2.3.4
+
+# MQTT
+paho-mqtt>=1.6.1
+
+# Environment variable loading (.env file support)
+python-dotenv>=1.0.0
